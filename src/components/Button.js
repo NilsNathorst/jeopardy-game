@@ -6,8 +6,10 @@ const StyledButton = styled.button`
   height: 45px;
   border: solid black 2px;
   ${props =>
-    props.correct ? `{ background: blue; margin-right: 12px;}` : null}
-  ${props => (props.incorrect ? `{ background: red}` : null)}
+    props.correct
+      ? `{ background: ${props.theme.green}; margin-right: 12px;}`
+      : null}
+  ${props => (props.incorrect ? `{ background: transparent}` : null)}
 `;
 
 const Button = props => {

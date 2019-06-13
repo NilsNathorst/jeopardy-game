@@ -3,16 +3,14 @@ import styled from "styled-components";
 import Modal from "./Modal";
 import Logo from "./Logo";
 const Card = styled.div`
-  padding: 20px;
   font-size: ${({ theme }) => theme.fontSmall};
   text-align: center;
-  line-height: 200%;
+  height: 140px;
   > p {
-    width: 100%;
-    height: 100%;
+    font-size: ${({ theme }) => theme.fontLarge};
+    line-height: 200%;
     color: ${({ theme }) => theme.green};
   }
-
   ${props =>
     props.taken
       ? `{

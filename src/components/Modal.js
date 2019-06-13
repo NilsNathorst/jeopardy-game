@@ -43,7 +43,7 @@ const Popup = styled.div`
   left: 10%;
   top: 10%;
   p {
-    margin: 13% 0 0 10%;
+    margin: 15% 0 0 10%;
     width: 80%;
     padding: 8px;
     text-align: center;

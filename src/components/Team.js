@@ -17,6 +17,7 @@ const StyledDiv = styled.div`
     padding: 0 0 0 0;
   }
   h1 {
+    margin-left: 20%;
     padding: 0 0 0 8px;
     font-size: ${({ theme }) => theme.fontLarge};
   }

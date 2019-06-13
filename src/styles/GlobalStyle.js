@@ -35,6 +35,10 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     overflow: hidden;
 	}
+  .remove-start-screen {
+    visibility: hidden;
+    display: none;
+  }
   .App {
     > div {
     margin-top: ${({ theme }) => theme.gridGap};
