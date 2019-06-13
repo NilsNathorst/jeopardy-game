@@ -3,6 +3,8 @@ import introScreenImage from "../styles/assets/images/Vxjeapardy.jpg";
 import React, { Component } from "react";
 const FullscreenImage = styled.div`
   background-image: url(${introScreenImage});
+  background-repeat: no-repeat;
+  background-size: 100%;
   position: fixed;
   top: 0;
   left: 0;
